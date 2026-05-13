@@ -1,7 +1,7 @@
-# Titanic Survival Prediction
+# Movie Rating Prediction
 
 ## Objective
-Predict whether a passenger survived the Titanic disaster using Machine Learning.
+This project predicts movie ratings using Machine Learning techniques.
 
 ## Technologies Used
 - Python
@@ -9,19 +9,27 @@ Predict whether a passenger survived the Titanic disaster using Machine Learning
 - NumPy
 - Scikit-learn
 
-## Algorithm Used
-Random Forest Classifier
+## Machine Learning Model
+Random Forest Regressor
 
-## Features
-- Passenger Class
-- Gender
-- Age
-- Fare
-- Family Details
-- Embarked Port
+## Features Used
+- Genre
+- Director
+- Actors
+- Runtime
+- Votes
+- Revenue
+
+## Workflow
+1. Data Collection
+2. Data Preprocessing
+3. Label Encoding
+4. Model Training
+5. Prediction
+6. Performance Evaluation
 
 ## Result
-The model achieved good prediction accuracy.
+The model successfully predicted movie ratings with good accuracy.
 
 ## Author
 Akash
