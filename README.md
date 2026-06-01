@@ -1,35 +1,32 @@
-# Movie Rating Prediction
+# Iris Flower Classification
 
 ## Objective
-This project predicts movie ratings using Machine Learning techniques.
+Classify Iris flowers into Setosa, Versicolor, and Virginica species using Machine Learning.
 
 ## Technologies Used
 - Python
+- Scikit-Learn
 - Pandas
 - NumPy
-- Scikit-learn
 
-## Machine Learning Model
-Random Forest Regressor
+## Algorithm Used
+Random Forest Classifier
 
 ## Features Used
-- Genre
-- Director
-- Actors
-- Runtime
-- Votes
-- Revenue
+- Sepal Length
+- Sepal Width
+- Petal Length
+- Petal Width
 
 ## Workflow
-1. Data Collection
-2. Data Preprocessing
-3. Label Encoding
-4. Model Training
-5. Prediction
-6. Performance Evaluation
+1. Load Iris Dataset
+2. Split Training and Testing Data
+3. Train Random Forest Model
+4. Predict Species
+5. Evaluate Accuracy
 
 ## Result
-The model successfully predicted movie ratings with good accuracy.
+The model successfully classified Iris flower species with high accuracy.
 
 ## Author
 Akash
