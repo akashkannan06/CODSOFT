@@ -1,31 +1,29 @@
-# Sales Prediction Using Python
+# Credit Card Fraud Detection
 
 ## Objective
-Predict product sales using advertising expenditure data.
+Detect fraudulent credit card transactions using Machine Learning.
 
 ## Technologies Used
 - Python
 - Pandas
-- NumPy
 - Scikit-Learn
 
 ## Algorithm Used
-Linear Regression
+Random Forest Classifier
 
 ## Features Used
-- TV Advertising
-- Radio Advertising
-- Newspaper Advertising
+- Transaction Amount
+- Transaction Time
 
 ## Workflow
 1. Load Dataset
-2. Split Training and Testing Data
-3. Train Linear Regression Model
-4. Predict Sales
-5. Evaluate Performance
+2. Split Data into Training and Testing Sets
+3. Train Random Forest Model
+4. Predict Fraudulent Transactions
+5. Evaluate Model Performance
 
 ## Result
-The model successfully predicts future sales based on advertising expenditure.
+The model successfully classified transactions as legitimate or fraudulent.
 
 ## Author
 Akash
