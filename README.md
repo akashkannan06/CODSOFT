@@ -1,32 +1,31 @@
-# Iris Flower Classification
+# Sales Prediction Using Python
 
 ## Objective
-Classify Iris flowers into Setosa, Versicolor, and Virginica species using Machine Learning.
+Predict product sales using advertising expenditure data.
 
 ## Technologies Used
 - Python
-- Scikit-Learn
 - Pandas
 - NumPy
+- Scikit-Learn
 
 ## Algorithm Used
-Random Forest Classifier
+Linear Regression
 
 ## Features Used
-- Sepal Length
-- Sepal Width
-- Petal Length
-- Petal Width
+- TV Advertising
+- Radio Advertising
+- Newspaper Advertising
 
 ## Workflow
-1. Load Iris Dataset
+1. Load Dataset
 2. Split Training and Testing Data
-3. Train Random Forest Model
-4. Predict Species
-5. Evaluate Accuracy
+3. Train Linear Regression Model
+4. Predict Sales
+5. Evaluate Performance
 
 ## Result
-The model successfully classified Iris flower species with high accuracy.
+The model successfully predicts future sales based on advertising expenditure.
 
 ## Author
 Akash
